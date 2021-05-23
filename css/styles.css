@@ -7,8 +7,7 @@ body {
 }
 .main {
   margin: 75px;
-  
-}
+  }
 h1, h2, h3 {
   color: #1C4A1F;
   }
@@ -32,15 +31,13 @@ h1, h2, h3 {
 .banner p {
   color: #F5F3CC;
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.8;
   margin: 0;
 }
 .card-white {
   background: #F2EFBB;
-  box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 12px;
   padding: 24px;
-  margin: 8px;
   flex-grow: 1;
   
 }
@@ -59,16 +56,14 @@ h1, h2, h3 {
     object-fit: cover;
   border-radius: 12px;
 }
-
 .footer {
   background: #1A4513;
   color: #E8E288;
   padding: 10px 75px;
+  text-align: center;
 }
-
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
-
 }
